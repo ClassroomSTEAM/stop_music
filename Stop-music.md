@@ -1,6 +1,8 @@
-#How to stop music
+# How to stop music
 
-## Play a melody when button A pressed
+## Play a melody
+
+Play a melody when button A pressed
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -8,7 +10,9 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Stop a melody by playing an empty array when button B pressed
+## Stop a melody
+
+Stop a melody by playing an empty array when button B pressed
 
 ```blocks
 input.onButtonPressed(Button.B, function () {
